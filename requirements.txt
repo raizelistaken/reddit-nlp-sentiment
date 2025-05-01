@@ -1,0 +1,13 @@
+numpy==1.24.0
+seaborn==0.12.0
+matplotlib==3.7.0
+pandas==1.4.4
+scikit-learn==1.5.0
+nltk==3.9.0
+pytz==2022.2.1
+fpdf==1.7.2
+gensim==4.3.2
+tqdm==4.66.3
+langchain==0.1.14
+gpt4all==1.0.8
+openpyxl==2.6.4

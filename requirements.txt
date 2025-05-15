@@ -18,3 +18,5 @@ wordcloud
 praw
 nest_asyncio
 python-dotenv
+langchain
+gpt4all==1.0.8

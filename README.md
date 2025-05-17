@@ -1,6 +1,6 @@
 ﻿# Reddit NLP Sentiment
 
-This project analyzes Reddit posts for sentiment using Natural Language Processing (NLP). I used data from the subreddits of different movies to analyze movie sentiment, and compared it to the ratings of critics from RottenTomates.
+This project analyzes Reddit posts for sentiment using Natural Language Processing (NLP). I used data from the subreddits of different movies to analyze movie sentiment, and compared it to the ratings of critics from [RottenTomates](https://www.rottentomatoes.com/).
 
 ![images](inceptionwordcloud.jpg)
 

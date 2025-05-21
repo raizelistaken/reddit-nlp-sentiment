@@ -2,7 +2,7 @@
 
 This project analyzes Reddit posts for sentiment using Natural Language Processing (NLP). I used data from the subreddits of different movies to analyze movie sentiment, and compared it to the ratings of critics from [RottenTomates](https://www.rottentomatoes.com/).
 
-![images](images/inceptionwordcloud.jpg)
+![images](images/shawshankredemption_wordbloud.jpg)
 
 ## Requirements
 
@@ -25,4 +25,4 @@ pip install -r requirements.txt
     - [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html#examples-using-sklearn-manifold-tsne)
 
 ## Results
-The following are bar graphs, kernel density estimates, LDA topic models, and tsne; from Inception. The VADER images reflect the VADER score, a post sentiment rating score from -1 to 1. Negative one being perceived as a negative as bad and positive 1 being associated with a good review. Any score between -.05 and .05 was placed in the neutral category. The topic models returned a list of popular words for each topic. Chatgpt differentiated the categories between movie topics. 
+The following are bar graphs, kernel density estimates, LDA topic models, and tsne; from Inception. The VADER images reflect the VADER score, a post sentiment rating score from -1 to 1. Negative one being perceived as a negative as bad and positive 1 being associated with a good review. Any score between -.05 and .05 was placed in the neutral category. The topic models returned a list of popular words for each topic. Local LLM (Chatgpt) differentiated the categories between movie topics. 

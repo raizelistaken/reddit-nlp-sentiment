@@ -2,7 +2,7 @@
 
 This project analyzes Reddit posts for sentiment using Natural Language Processing (NLP) using data from various movie posts on subreddits. Ultimately, analyzing movie sentiment and comparing it to the critic ratings from [RottenTomates](https://www.rottentomatoes.com/).
 
-![Shawshank Redemption Word Cloud](images/shawshankredemption_wordcloud.jpg)
+![Shawshank Redemption Word Cloud](images/ShawshankRedemption_wordcloud.jpg)
 
 ## Requirements
 

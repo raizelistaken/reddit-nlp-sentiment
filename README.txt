@@ -1,8 +1,8 @@
-﻿# Reddit NLP Sentiment
+﻿﻿﻿# Reddit NLP Sentiment
 
-This project analyzes Reddit posts for sentiment using Natural Language Processing (NLP) using data from various movie posts on subreddits. Ultimately, analyzing movie sentiment and comparing it to the critic ratings from [RottenTomates](https://www.rottentomatoes.com/).
+This project analyzes Reddit posts sentiment using Natural Language Processing (NLP). Sentiment topics are further analyzed using an LLM to distinguish movie topics divvied up by LDA topic modeling. The sentiment scores (pos, neg, neutral, or compound) can be compared to the critic ratings from [RottenTomates](https://www.rottentomatoes.com/).
 
-![Shawshank Redemption Word Cloud](images/ShawshankRedemption_wordcloud.jpg)
+![Wicked](images/wicked_wordcloud.jpg)
 
 ## Requirements
 
@@ -25,4 +25,13 @@ pip install -r requirements.txt
     - [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html#examples-using-sklearn-manifold-tsne)
 
 ## Results
-The following are bar graphs, kernel density estimates, LDA topic models, and tsne; from Inception. The VADER images reflect the VADER score, a post sentiment rating score from -1 to 1. Negative one being perceived as a negative as bad and positive 1 being associated with a good review. Any score between -.05 and .05 was placed in the neutral category. The topic models returned a list of popular words for each topic. Local LLM (Chatgpt) differentiated the categories between movie topics. 
+The following are bar graphs, kernel density estimates, LDA topic models, and tsne; from Inception. The VADER images reflect the VADER score, a post sentiment rating score from -1 to 1. Negative one being perceived as a negative / bad and positive one being associated with a good review. Any score between -.05 and .05 was placed in the neutral category. The topic models returned a list of popular words for each topic. Local LLM (Chatgpt) differentiated the categories between movie topics. 
+
+
+![Inception_bar](images/Inception_freqbargraph.png)
+
+![Inception_kerneldestiny](images/Inceptionsentimentdistribution.jpg)
+
+![Inception_LDA](Inception_lda_vis.html)
+
+![Inception_tsne](images/tsne_inception.jpg)
